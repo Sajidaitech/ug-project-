@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launching Soon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="dots" id="dots"></div>
+    </div>
+    
+    <div class="container">
+        <div class="logo">Virtual Classroom</div>
+        
+        <div class="status-container">
+            <div class="status-text">
+                <div class="typing-animation">Launching Soon</div>
+            </div>
+            
+            <div class="time-container" id="countdown">
+                <div class="time-segment">
+                    <div class="time-value" id="days">00</div>
+                    <div class="time-label">Days</div>
+                </div>
+                <div class="time-segment">
+                    <div class="time-value" id="hours">00</div>
+                    <div class="time-label">Hours</div>
+                </div>
+                <div class="time-segment">
+                    <div class="time-value" id="minutes">00</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-segment">
+                    <div class="time-value" id="seconds">00</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            Last updated: <span id="lastUpdated"></span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
